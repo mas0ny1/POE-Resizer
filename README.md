@@ -2,7 +2,7 @@
 Resizes the POE window to be with Ultrawide dimension when you press f10. Uses Autohotkey v1    
 
 
-  https://www.autohotkey.com/download/1.1/
+  https://www.autohotkey.com/download/1.1/  
   Look for: AutoHotkey_1.1.36.02_setup.exe  
   https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.36.02_setup.exe
 
