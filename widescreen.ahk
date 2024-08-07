@@ -16,6 +16,7 @@ window := "ahk_class POEWindowClass"
     }
 return
 
+;Close the script if the game is closed
 CheckWindow:
 if !WinExist(window) {
     Esc::ExitApp
@@ -24,10 +25,11 @@ return
 
 CreateBlackBars() {
     global
-    Gui, TopBar:New, +ToolWindow -caption
+    ; Remove the ";" before ;+AlwaysOnTop to have the bars always on top, including when you alt tab and try to use other applications on the same monitor
+    Gui, TopBar:New, +ToolWindow -caption ;+AlwaysOnTop
     Gui, TopBar:Color, 000000
 
-	Gui, BottomBar:New, +ToolWindow -caption
+	Gui, BottomBar:New, +ToolWindow -caption ;+AlwaysOnTop
     Gui, BottomBar:Color, 000000
 	
     ; These values were manually tweeked by hand. Works with a 1080p Monitor
