@@ -33,13 +33,13 @@ CreateBlackBars() {
 	Gui, BottomBar:New, +ToolWindow -caption
     Gui, BottomBar:Color, 000000
 	
-	hs := A_ScreenHeight / 12
-	he := A_ScreenHeight / 12 + 60
-	hse := A_ScreenHeight * 10 / 12 - 10
+    ; These values were manually tweeked by hand. Works with a 1080p Monitor
+	TopBarBoxHeight := A_ScreenHeight / 12
+	BottomBarBoxHeight := A_ScreenHeight / 12 + 60
+	BottomBarYCoordinate := A_ScreenHeight * 10 / 12 - 10
 
-
-    Gui, TopBar:Show, x0 y0 h%hs% w%A_ScreenWidth%, TopBar
-    Gui, BottomBar:Show, x0 y%hse% h%he% w%A_ScreenWidth%, BottomBar
+    Gui, TopBar:Show, x0 y0 h%TopBarBoxHeight% w%A_ScreenWidth%, TopBar
+    Gui, BottomBar:Show, x0 y%BottomBarYCoordinate% h%BottomBarBoxHeight% w%A_ScreenWidth%, BottomBar
 }
 
 RemoveBlackBars() {
