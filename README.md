@@ -12,4 +12,5 @@ https://www.reddit.com/r/pathofexile/comments/1b4hz07/comment/lgt80ep/?%24deep_l
 Press F10 to toggle  
 Script will close when you close POE  
 Recommended to Lock mouse to window in POE settings  
+This works for me when I have Windowed Fullscreen set in my settings 
 
