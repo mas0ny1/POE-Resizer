@@ -13,5 +13,5 @@ Press F10 to toggle
 Script will close when you close POE  
 Recommended to Lock mouse to window in POE settings  
 This works for me when I have Windowed Fullscreen set in my settings  
-The black bars always exist but they are not always on top to allow you to use other software on the same monitor when you alt tab. Make sure you minimise the software when you are not using it so the black bars will show up
+The black bars always exist but they are not always on top to allow you to use other software on the same monitor when you alt tab. Make sure you minimise background software when you are not using it so the black bars will show up
 
