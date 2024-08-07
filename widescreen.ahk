@@ -19,7 +19,7 @@ return
 ;Close the script if the game is closed
 CheckWindow:
 if !WinExist(window) {
-    Esc::ExitApp
+    ExitApp
 }
 return
 
