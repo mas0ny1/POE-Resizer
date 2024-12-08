@@ -1,4 +1,4 @@
-# POE-Resizer
+# POE1  and POE2 Resizer
 Resizes the POE window to be with Ultrawide dimension when you press f10, adds 2 black bars so you dont see your desktop in the background. Uses Autohotkey v1    
 
 Links:  
